@@ -1,0 +1,143 @@
+@charset 'EUC-JP';
+
+body {background-color: #000; margin: 0; padding: 0; text-align: center; font-size: 95%;}
+.contents {width: 100%; margin: 0; padding: 0; text-align: left; position: relative;}
+
+table {width: 100%; margin: 0px; padding: 0px;}
+table td {padding: 0px; border-width: 0px; vertical-align: top;}
+th {background-color: #f60; color: #000000; padding : 2px; vertical-align : middle;}
+
+a {color: #000; text-decoration: none; background-color: transparent;}
+a:hover {color: #fff; font-weight: bold;}
+th a {color: #000;}
+th a:hover {color: #fff; font-weight: bold;}
+.leftcolumn a {color: #000;}
+.leftcolumn a:hover {color: #fff; font-weight: bold;}
+.centerCcolumn a{color: #000;}
+.centerCcolumn a:hover{color: #f60; font-weight: bold;}
+.centerLcolumn a{color: #000;}
+.centerLcolumn a:hover{color: #f60; font-weight: bold;}
+.centerRcolumn a{color: #000;}
+.centerRcolumn a:hover{color: #f60; font-weight: bold;}
+.rightcolumn a {color: #f60;}
+.rightcolumn a:hover {color: #fff; font-weight: bold;}
+.item a{color: #000;}
+.item a:hover{color: #f60; font-weight: bold;}
+.outer a {color: #000;}
+.outer a:hover{color: #f60; font-weight: bold;}
+.outer th a {color: #000;}
+.outer th a:hover{color: #fff; font-weight: bold;}
+address a {color: #f60; font-size: 90%;}
+address a:hover {color: #fff; font-size: 90%; font-weight: bold;}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul {margin: 0; padding: 2px 5px; text-align: left;}
+li {list-style: square inside; color: #000;}
+
+input {color:#000000; border:1px solid #000; margin: 1px; padding-top:3px; background-color: #ffffff;}
+textarea {color:#000000; border:1px solid #000; margin: 1px; padding-top:3px; background-color: #ffffff;}
+#rightcolumn input {color:#000000; border:1px solid #f60; margin: 1px; padding-top:3px; background-color: #ffffff;}
+#rightcolumn textarea {color:#000000; border:1px solid #f60; margin: 1px; padding-top:3px; background-color: #ffffff;}
+
+.item {background-color: #fff; margin: 0; border: 2px solid #000;}
+.itemHead {margin: 0; padding: 5px 10px 2px; font-size: 120%;}
+.itemInfo {text-align: right; padding: 3px 10px 2px; border-top: 2px dotted #000;}
+.itemPoster {}
+.itemPostDate {}
+.itemStats {}
+.itemBody {padding: 2px 15px;}
+.itemText {line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {margin: 0; padding: 2px 10px; line-height: 120%; text-align: right;}
+.itemAdminLink {}
+.itemPermaLink {}
+
+.header {height: 150px;}
+.headerbanner01 {width: 235px;}
+.headerlogo {text-align: center;}
+.headerbanner02 {width: 160px;}
+
+.headerbar {background-color: #f60; margin-bottom: 15px; padding-right: 10px; border-top: 1px solid #000; text-align: right;}
+.headerbar input {vertical-align: middle;}
+
+.main {}
+
+.leftcolumn {width: 180px; padding: 0px 20px 0px 15px;}
+.leftcolumn th {background-color: #f60; color: #000; vertical-align: middle;}
+.leftcolumn div.blocktop {background: #f60 url(./image/bg_lside02.gif) no-repeat right;}
+.leftcolumn div.blockTitle {background-color: #f60; margin: 0px; padding: 2px 5px; text-align: center; font-size: 120%; font-weight: bold;}
+.leftcolumn div.blockContent {margin-bottom: 15px; padding: 2px 10px 20px; background-color: #f60; line-height: 120%;}
+
+.centercolumn {padding: 20px; background-color: #f60;}
+
+.center {}
+.centercolumn div.blockTitle img {vertical-align: middle;}
+
+.centerCcolumn {}
+.centerCcolumn div.blockTitle {background-color: #fff;margin: 0; padding: 2px 5px 2px; border-top: 2px solid #000; border-right: 2px solid #000; border-left: 2px solid #000; border-bottom: 2px dotted #000; font-size: 120%; text-align: center;}
+.centerCcolumn div.blockContent {background-color: #fff; margin-bottom: 20px; padding: 10px; border-right: 2px solid #000; border-left: 2px solid #000; border-bottom: 2px solid #000;}
+.centerCcolumn div.blockTitle img {vertical-align: middle;}
+
+.centerLcolumn {width: 48%; float: left; text-align: left;}
+.centerLcolumn div.blockTitle { background-color: #fff;margin: 0; padding: 2px 5px 2px; border-top: 2px solid #000; border-right: 2px solid #000; border-left: 2px solid #000; border-bottom: 2px dotted #000; font-size: 120%; text-align: center;}
+.centerLcolumn div.blockContent { background-color: #fff; margin-bottom: 20px; padding: 10px; border-right: 2px solid #000; border-left: 2px solid #000; border-bottom: 2px solid #000;}
+
+.centerRcolumn {width: 48%; float: right; text-align: left;}
+.centerRcolumn div.blockTitle { background-color: #fff;margin: 0; padding: 2px 5px 2px; border-top: 2px solid #000; border-right: 2px solid #000; border-left: 2px solid #000; border-bottom: 2px dotted #000; font-size: 120%; text-align: center;}
+.centerRcolumn div.blockContent { background-color: #fff; margin-bottom: 20px; padding: 10px; border-right: 2px solid #000; border-left: 2px solid #000; border-bottom: 2px solid #000;}
+
+.content {clear: both; text-align: left;}
+.content div.blockTitle {color: #000; padding: 5px; font-size: 150%; font-weight: bold;}
+
+.rightcolumn {width: 180px; padding: 0px 15px 0px 20px;}
+.rightcolumn th {background-color: #f60; color: #000000; vertical-align: middle;}
+.rightcolumn div.blockTitle {color: #f60; padding: 2px 5px; text-align: center; font-size: 120%; font-weight: bold; border-bottom: 5px double #f60;}
+.rightcolumn div.blockContent {color: #f60; margin-bottom: 15px; padding: 10px 5px 5px; line-height: 120%;}
+
+.footerbar {}
+.copyright {padding: 5px; text-align:center;}
+
+td#mainmenu a {display: block; font-weight: bold; border-bottom: 1px dotted #000;}
+td#mainmenu a:hover {color: #fff;}
+td#mainmenu a.menuTop {border-top: 1px dotted #000;}
+td#mainmenu a.menuMain {}
+td#mainmenu a.menuSub {padding-left: 10px;}
+
+td#usermenu a {display: block; font-weight: bold; border-bottom: 1px dotted #000;}
+td#usermenu a:hover {color: #fff;}
+td#usermenu a.menuTop {border-top: 1px dotted #000;}
+td#usermenu a.highlight {background-color: #ff9;}
+
+.outer {border: 2px solid #000; background-color: #ffffff;}
+.outer td{padding: 5px;}
+.head {background-color: #fc0; font-weight: bold;}
+.even {background-color: #ff9;}
+.odd {background-color: #ffffff;}
+.foot {background-color: #fc0; font-weight: bold;}
+tr.even td {background-color: #ff9;}
+tr.odd td {background-color: #ffffff;}
+
+div.errorMsg {background-color: #ffffff; text-align: center; border: 1px solid #000; font-weight: bold; padding: 10px;}
+div.confirmMsg {background-color: #ffffff; color: #000000; text-align: center; border: 1px solid #000; font-weight: bold; padding: 10px;}
+div.resultMsg {background-color : #ffffff; color: #000000; text-align: center; borderp: 1px solid #000; font-weight: bold; padding: 10px;}
+
+div.xoopsCode {background: #FFFFFF; border: 1px inset #000; padding: 0px 6px 6px 6px;}
+div.xoopsQuote {background: #FFFFFF; border: 1px inset #000; padding: 0px 6px 6px 6px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {color: #000000; font-weight:bold; border: 1px solid #000; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #000; font-weight:bold;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-weight:bold;}
+.comUserRankImg {border: 0px;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal;}
+.comDateCaption {font-weight: bold; font-style: normal;}
